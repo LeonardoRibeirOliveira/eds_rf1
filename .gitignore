@@ -1,9 +1,7 @@
 # Diretórios de ambiente
-env/
 .venv/
 venv/
 clima_localizacao_env/  # Se você nomeou seu env de outra forma
-.env/
 
 # Conda environments
 *.conda
@@ -15,12 +13,6 @@ conda-*.yml
 # Arquivos específicos do Conda
 conda-meta/
 *.condarc
-
-# Arquivos de ambiente
-.env
-.env.local
-.env.*.local
-secrets.env
 
 # Arquivos do Python
 __pycache__/
