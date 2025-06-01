@@ -1,0 +1,95 @@
+# Diretórios de ambiente
+env/
+.venv/
+venv/
+clima_localizacao_env/  # Se você nomeou seu env de outra forma
+.env/
+
+# Conda environments
+*.conda
+*.conda_env/
+envs/
+pkgs/
+conda-*.yml
+
+# Arquivos específicos do Conda
+conda-meta/
+*.condarc
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+secrets.env
+
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de cache e logs
+*.log
+*.sqlite
+*.sqlite3
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
+.ropeproject
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Arquivos de banco de dados
+*.db
+*.sql
+*.sqlite
+
+# Arquivos de compilação
+*.mo
+*.pot
+
+# Arquivos de documentação
+docs/_build/
+
+# Arquivos de deploy
+deploy/
+*.tar.gz
+*.whl
+
+# Arquivos de usuário
+*.user
+*.bak
+*.tmp
